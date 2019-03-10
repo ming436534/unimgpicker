@@ -69,5 +69,12 @@ namespace Kakera
 
 ## Development
 
-- The Android project depends on OSX
+- The Android project depends on Window
     - Because it loads `classes.jar` from the Unity Application path.
+    - Change the path in `Uniimgpicker/build.gradle` depending on your `classes.jar` file location
+
+## Differences between the original project
+- Update to support Unity 2018
+- Fixed the MultiDex error by including the `classes.jar` with `provided`
+- Update dependencies in the `Uniimgpicker/build.gradle`
+- Only include the `XcodeConfigurator.cs` file when the platform is iOS
