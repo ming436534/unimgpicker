@@ -76,5 +76,6 @@ namespace Kakera
 ## Differences between the original project
 - Update to support Unity 2018
 - Fixed the MultiDex error by including the `classes.jar` with `provided`
-- Update dependencies in the `Uniimgpicker/build.gradle`
+- Update dependencies in the `unimgpicker/build.gradle`
 - Only include the `XcodeConfigurator.cs` file when the platform is iOS
+- - Changed the file structure in Assets/Plugins/Android
